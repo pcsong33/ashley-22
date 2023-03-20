@@ -3,6 +3,16 @@ body {
     display: grid;
     place-items: center;
 }
+
+.ashley {
+  background-color: pink;
+  padding: 2px 5px 2px 5px;
+  color:#0F1518;
+  border-radius: 5px;
+  font-family: Migra-light;
+  width: 700px
+}
+
 svg.tea {
   --secondary: white;
   /* --secondary: #33406f; */
