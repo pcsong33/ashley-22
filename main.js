@@ -115,7 +115,7 @@ const DESCRIPTIONS = {
     },
     [ASHLEYTYPES.HS]:
     {
-        photo: "assets/highschool_ashley.jpeg",
+        photo: "assets/grad_ashley.jpeg",
         description: "We can only guess what high school Ashley was like, but this is how we imagine her: optimistic, passionate, and ready for the world. \"Hi, I'm Ashley and I live in Livermore, California. I developed burning passion for STEM through my intensive and transformative summer experience at SSP. One of the reasons I love STEM is because it is our future, and I cannot wait for mine! Of course, it’s impossible to really predict my future, but I’m extremely excited to see where life will take me!\""
     },
     [ASHLEYTYPES.DANCE]:
@@ -219,15 +219,15 @@ function showResults(){
         resultsContainer.innerHTML =
             `<div class="answer">
                 <h1>Congrats, you are ${maxAshleyType}!</h1>
-                <img src=${DESCRIPTIONS[maxAshleyType].photo}>
+                <img src=${DESCRIPTIONS[maxAshleyType].photo} class="ashley">
                 <p>${DESCRIPTIONS[maxAshleyType].description}</p>
             </div>`
     }
 
     resultsContainer.scrollIntoView();
 
-    var audio = new Audio("assets/heart_react.m4a");
-    audio.play();
+    // var audio = new Audio("assets/heart_react.m4a");
+    // audio.play();
 }
 
 // display quiz right away
