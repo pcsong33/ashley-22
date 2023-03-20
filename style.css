@@ -1,0 +1,173 @@
+@font-face { font-family: Migra-Bold; src: url('fonts/MigraItalic-ExtraboldItalic.ttf'); }
+@font-face { font-family: Migra-Light; src: url('fonts/MigraItalic-ExtralightItalic.ttf'); }
+@font-face { font-family: Galano; src: url('fonts/GalanoClassicLight.otf'); }
+@font-face { font-family: Galano-Med; src: url('fonts/GalanoClassicMedium.otf');}
+
+
+    /* The container */
+
+    .container {
+        display: block;
+        position: relative;
+        padding-left: 35px;
+        margin-bottom: 12px;
+        cursor: pointer;
+        font-size: 22px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      /* Hide the browser's default radio button */
+      .container input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+      }
+
+      /* Create a custom radio button */
+      .checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 25px;
+        width: 25px;
+        background-color: #eee;
+        border-radius: 50%;
+      }
+
+      /* On mouse-over, add a grey background color */
+      .container:hover input ~ .checkmark {
+        background-color: #ccc;
+      }
+
+      /* When the radio button is checked, add a blue background */
+      .container input:checked ~ .checkmark {
+        background-color: #2196F3;
+      }
+
+      /* Create the indicator (the dot/circle - hidden when not checked) */
+      .checkmark:after {
+        content: "";
+        position: absolute;
+        display: none;
+      }
+
+      /* Show the indicator (dot/circle) when checked */
+      .container input:checked ~ .checkmark:after {
+        display: block;
+      }
+
+      /* Style the indicator (dot/circle) */
+      .container .checkmark:after {
+           top: 9px;
+          left: 9px;
+          width: 8px;
+          height: 8px;
+          border-radius: 50%;
+          background: white;
+      }
+
+.question, img, .answer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+#header {
+    font-family: Migra-light;
+    font-size: 6em;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.9);
+	}
+
+	70% {
+        transform: scale(1);
+    	}
+
+	100% {
+		transform: scale(0.9);
+	}
+}
+
+.question {
+    margin-bottom: 75px;
+}
+
+.ashley {
+    background-color: pink;
+    padding: 2px 5px 2px 5px;
+    color:#0F1518;
+    border-radius: 5px;
+    font-family: Migra-light;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #0F1518;
+}
+
+p, label {
+    font-family: Galano;
+}
+
+h1, button, marquee {
+    font-family: Galano-Med;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+#bur {
+    margin-bottom: 50px;
+}
+
+.submit {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: pink;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #777;
+}
+
+.submit:hover {background-color: #ff99aa}
+
+.submit:active {
+  background-color: #ff99aa;
+  box-shadow: 0 5px #555;
+  transform: translateY(4px);
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+img {
+    border-radius: 25px;
+    border: 5px solid pink;
+}
