@@ -50,7 +50,7 @@ const QUESTIONS = [
        During my Faceboook internship, I implemented new features for Messenger Desktop’s in-call settings that allow users to self-correct audio issues. Sorry, what was your question again?",
       [ASHLEYTYPES.TF]: "Do you deserve to hire me? Let me ask a couple questions.",
       [ASHLEYTYPES.HS]: "A firm handshake",
-      [ASHLEYTYPES.DANCE]: "...performs a badass dance routine before dramatically sitting down to face her interviewer on Zoom...",
+      [ASHLEYTYPES.DANCE]: "Performs a side aerial (not a front aerial) inside a single spotlight before dramatically sitting down to face her interviewer on Zoom",
       [ASHLEYTYPES.DATAMATCH]: "I built a match-making web application for college students at 30+ schools, which had over 37k users in 2020, 40k users in 2021, and 50k users in 2022.",
       [ASHLEYTYPES.FOODIE]: "Taaake onnn meeeeeee! TAKE ME ON!"
   }
@@ -94,7 +94,7 @@ const QUESTIONS = [
       [ASHLEYTYPES.TECH]: "Time complexity of the murder: O(n logn). Space complexity: O(n).",
       [ASHLEYTYPES.TF]: "-10 points for correctness, but +3 points for style ",
       [ASHLEYTYPES.HS]: "...",
-      [ASHLEYTYPES.DANCE]: "...",
+      [ASHLEYTYPES.DANCE]: "An empty dance studio and a set of mysterious text messages from your dancers with suspicious excuses about why they can’t make it to practice",
       [ASHLEYTYPES.DATAMATCH]: "...",
       [ASHLEYTYPES.FOODIE]: "A strange orange powdered dust on the floor that smells suspiciously like hot cheetos"
   }
