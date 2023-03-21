@@ -110,8 +110,8 @@ const DESCRIPTIONS = {
     },
     [ASHLEYTYPES.TF]:
     {
-        photo: "assets/TF_Ashley2.JPG",
-        description: "This is (head) TF Ashley, and I just wanted to go over the highlights today's staff meeting agenda. Make sure you've finished grading your midterm assignments or I will personally hunt you down. Also, please react 🍩 or 🧁 to my message in the #staff-meeting slack channel to vote for your choice of snacks at the next staff meeting!"
+        photo: "assets/tf_ashley.jpg",
+        description: "This is (head) TF Ashley, and I just wanted to go over the highlights for today's staff meeting agenda. Make sure you've finished grading your midterm assignments or I will personally hunt you down. Also, please react 🍩 or 🧁 to my message in the #staff-meeting slack channel to vote for your choice of snacks at our next meeting!"
     },
     [ASHLEYTYPES.HS]:
     {
