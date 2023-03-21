@@ -121,7 +121,7 @@ const DESCRIPTIONS = {
     [ASHLEYTYPES.DANCE]:
     {
         photo: "assets/dance_ashley.jpeg",
-        description: "Congrats, you matched with Dance Ashley!"
+        description: "If your ideal Woman can move like a Hurricane, break it down in the Streets, and have a suave Demeanor, look no further than Dance Ashley! From EXP Captain to musical theater choreographer to Eleganza Scene Director and Executive Producer, Dance Ashley is certainly the Highest (achiever) In The Room. For a first date, take her to the Lowell Dance Studio or the Bright-Landry Hockey Pavilion :)"
     },
     [ASHLEYTYPES.DATAMATCH]:
     {
