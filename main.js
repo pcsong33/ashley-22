@@ -105,8 +105,8 @@ const QUESTIONS = [
 const DESCRIPTIONS = {
     [ASHLEYTYPES.TECH]:
     {
-        photo: "assets/TECH_Ashley.jpeg",
-        description: "LinkedIn Message from tech Ashley. “Please add me to your LinkedIn network.” I have extensive experience in both research and industry, having worked as a data science researcher for the CDC and a software engineer intern at Stripe and Facebook. Some of my (endorsed) technical skills include web development, observational astronomy, and OCaml."
+        photo: "assets/tech_bro_ashley.png",
+        description: "LinkedIn Message from tech Ashley. “Please add me to your LinkedIn network.” I have extensive experience in both research, industry, and as a co-founder, having worked as a data science researcher for the CDC and a software engineer intern at Stripe and Facebook. Some of my (endorsed) technical skills include web development, observational astronomy, collaborative problem solving, and OCaml."
     },
     [ASHLEYTYPES.TF]:
     {
