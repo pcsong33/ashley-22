@@ -183,6 +183,13 @@ const quizContainer = document.getElementById('quiz');
 const resultsContainer = document.getElementById('results');
 const submitButton = document.getElementById('submit');
 
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+  }
+}
+
 function buildQuiz(){
     // variable to store the HTML output
   const output = [];
@@ -205,6 +212,9 @@ function buildQuiz(){
             </label>`
         );
       }
+
+      // shuffle the answers array so that Ashley types aren't always in the same position
+      shuffleArray(answers);
 
       // add this question and its answers to the output
       output.push(
