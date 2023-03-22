@@ -95,17 +95,17 @@ const QUESTIONS = [
       [ASHLEYTYPES.TF]: "-10 points for correctness, but +3 points for style ",
       [ASHLEYTYPES.HS]: "...",
       [ASHLEYTYPES.DANCE]: "An empty dance studio and a set of mysterious text messages from your dancers with suspicious excuses about why they can’t make it to practice",
-      [ASHLEYTYPES.DATAMATCH]: "...",
+      [ASHLEYTYPES.DATAMATCH]: "LGTM!",
       [ASHLEYTYPES.FOODIE]: "A strange orange powdered dust on the floor that smells suspiciously like hot cheetos"
   }
 },
 {
-  question: "After hours of effort, you finally break into the laptop at the scene of the crime and promptly declare that its owner must be the murderer. What gave it away?",
+  question: "After hours of effort, you finally break into the laptop at the scene of the crime, inspect it for a minute, and promptly declare that its owner must be the murderer. What gave it away?",
   answers: {
     [ASHLEYTYPES.TECH]: "Sublime Text installed instead of VS Code",
     [ASHLEYTYPES.TF]: "...",
     [ASHLEYTYPES.HS]: "An extremely unorganized Downloads folder containing 90% of the files on disk, dating back to December 2016",
-    [ASHLEYTYPES.DANCE]: "...",
+    [ASHLEYTYPES.DANCE]: "Daily GCal events that run until 4 am for holding auditions for 4 different dance shows and 1 musical",
     [ASHLEYTYPES.DATAMATCH]: "Git commit messages that were both all-lowercase AND in past tense",
     [ASHLEYTYPES.FOODIE]: "An Annenberg grill order asking for toast with runny eggs",
   }
@@ -128,7 +128,7 @@ const QUESTIONS = [
     [ASHLEYTYPES.TF]: "Mudkip",
     [ASHLEYTYPES.HS]: "...",
     [ASHLEYTYPES.DANCE]: "...",
-    [ASHLEYTYPES.DATAMATCH]: "...",
+    [ASHLEYTYPES.DATAMATCH]: "Club Penguin",
     [ASHLEYTYPES.FOODIE]: "Avocado"
   }
 },
@@ -136,9 +136,9 @@ const QUESTIONS = [
   question: "You wake up in a cold sweat from a terrible nightmare. What was it about?",
   answers: {
     [ASHLEYTYPES.TECH]: "You're in a dark room, and you can't find your laptop charger. You're running out of battery, and you're about to miss your interview with Facebook.", // lol GitHub copilot came up with this one
-    [ASHLEYTYPES.TF]: "You were supposed to grade problem 4(c) on the pset but you haven't started and it's due tonight! But that's a later problem, right now you need to answer questions on Ed (WHY DOES NO ONE ELSE ANSWER QUESTIONS ON ED). Oh and office hours begin in 30 minutes.",
+    [ASHLEYTYPES.TF]: "You were supposed to grade problem 4(c) on the pset but you haven't started and it's due tonight! But that's a later problem, right now you need to answer questions on Ed (WHY DOES NO ONE ELSE ANSWER QUESTIONS ON ED??). Oh and office hours begin in 30 minutes and you just received yet another Slack message about a certain someone overwriting names on the TF task allocation sheet.",
     [ASHLEYTYPES.HS]: "You've been waiting anxiously for your final grade for a class. You refresh the page one last time, only to see *GASP* an A-.",
-    [ASHLEYTYPES.DANCE]: "...",
+    [ASHLEYTYPES.DANCE]: "You're choregraphing a dance for Eleganza and you've been practicing with your group for months. It's finally your big day and you arrive at the venue only to discover that no one showed up to watch.",
     [ASHLEYTYPES.DATAMATCH]: "You pushed to production without testing your code and went to bed. You wake up the next morning and the world is on fire.",
     [ASHLEYTYPES.FOODIE]: "Congrats, you've been accepted to TF CS50! Minutes after you accept the offer, you receive an email from David Malan: \"Unfortunately, due to COVID restrictions, we will not be having Friday lunches at Changsho this year.\""
   }
