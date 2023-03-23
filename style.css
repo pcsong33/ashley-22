@@ -4,13 +4,14 @@
 @font-face { font-family: Galano-Med; src: url('fonts/GalanoClassicMedium.otf');}
 
 
-    /* The container */
+    /* The answerContainer */
 
-    .container {
+    .answerContainer {
         display: block;
         position: relative;
-        padding-left: 35px;
-        margin-bottom: 12px;
+        padding-left: 40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         cursor: pointer;
         font-size: 22px;
         -webkit-user-select: none;
@@ -19,8 +20,12 @@
         user-select: none;
       }
 
+      .answerContainer:hover {
+        background: rgba(196, 196, 196, 0.2);
+      }
+
       /* Hide the browser's default radio button */
-      .container input {
+      .answerContainer input {
         position: absolute;
         opacity: 0;
         cursor: pointer;
@@ -29,22 +34,19 @@
       /* Create a custom radio button */
       .checkmark {
         position: absolute;
-        top: 0;
-        left: 0;
-        height: 25px;
-        width: 25px;
-        background-color: #eee;
+        top: 10px;
+        left: 5px;
         border-radius: 50%;
-      }
-
-      /* On mouse-over, add a grey background color */
-      .container:hover input ~ .checkmark {
-        background-color: #ccc;
-      }
-
-      /* When the radio button is checked, add a blue background */
-      .container input:checked ~ .checkmark {
-        background-color: #2196F3;
+        border: 2px solid #000000;
+        width: 20px;
+        height: 20px;
+        background: lightGrey;
+        margin-right: 11px;
+        margin-top: 2px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: flex-start;
       }
 
       /* Create the indicator (the dot/circle - hidden when not checked) */
@@ -55,18 +57,18 @@
       }
 
       /* Show the indicator (dot/circle) when checked */
-      .container input:checked ~ .checkmark:after {
+      .answerContainer input:checked ~ .checkmark:after {
         display: block;
       }
 
       /* Style the indicator (dot/circle) */
-      .container .checkmark:after {
-           top: 9px;
-          left: 9px;
-          width: 8px;
-          height: 8px;
+      .answerContainer .checkmark:after {
+           top: 4px;
+          left: 4px;
+          width: 12px;
+          height: 12px;
           border-radius: 50%;
-          background: white;
+          background: #323232;
       }
 
 .question, img, .answer {
@@ -111,8 +113,8 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    background-color: #0F1518;
+    color: black;
+    background-color: #F5E3E3;
 }
 
 p, label {

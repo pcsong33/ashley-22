@@ -206,7 +206,7 @@ function buildQuiz(){
 
         // ...add an HTML radio button
         answers.push(
-            `<label class="container">${currentQuestion.answers[Ashley_type]}
+            `<label class="answerContainer">${currentQuestion.answers[Ashley_type]}
                 <input type="radio" name="question${questionNumber}" value="${Ashley_type}">
                 <span class="checkmark"></span>
             </label>`
