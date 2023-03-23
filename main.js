@@ -170,7 +170,7 @@ const DESCRIPTIONS = {
     [ASHLEYTYPES.DATAMATCH]:
     {
         photo: "assets/datamatch_ashley.jpeg",
-        description: "Congrats, you matched with Datamatch Ashley!"
+        description: "You've got a match! She sees you when you're sleeping, she knows when you're awake, and she especially knows when you haven't turned on push notifications, so be sure to do that for goodness' sake. Pioneer of landing pages, facilitator of search matches, inspirer of generations of weblings, Datamatch Ashley has done it all. Make sure to pay your respects to this (retired) Web Lead as you enjoy your free date together at Kung Fu Tea! sksksksksksksk."
     },
     [ASHLEYTYPES.FOODIE]:
     {
