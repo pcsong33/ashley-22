@@ -93,7 +93,7 @@ const QUESTIONS = [
   answers: {
       [ASHLEYTYPES.TECH]: "Time complexity of the murder: O(n logn). Space complexity: O(n).",
       [ASHLEYTYPES.TF]: "-10 points for correctness, but +3 points for style ",
-      [ASHLEYTYPES.HS]: "...",
+      [ASHLEYTYPES.HS]: "A Celestron C-14 telescope capable of collecting images of Near-Earth Asteroids",
       [ASHLEYTYPES.DANCE]: "An empty dance studio and a set of mysterious text messages from your dancers with suspicious excuses about why they can’t make it to practice",
       [ASHLEYTYPES.DATAMATCH]: "LGTM!",
       [ASHLEYTYPES.FOODIE]: "A strange orange powdered dust on the floor that smells suspiciously like hot cheetos"
@@ -126,8 +126,8 @@ const QUESTIONS = [
   answers: {
     [ASHLEYTYPES.TECH]: "Octocat",
     [ASHLEYTYPES.TF]: "Mudkip",
-    [ASHLEYTYPES.HS]: "...",
-    [ASHLEYTYPES.DANCE]: "...",
+    [ASHLEYTYPES.HS]: "Pumpkin",
+    [ASHLEYTYPES.DANCE]: "Mochi",
     [ASHLEYTYPES.DATAMATCH]: "Club Penguin",
     [ASHLEYTYPES.FOODIE]: "Avocado"
   }
