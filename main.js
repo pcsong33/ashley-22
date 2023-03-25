@@ -103,7 +103,7 @@ const QUESTIONS = [
   question: "After hours of effort, you finally break into the laptop at the scene of the crime, inspect it for a minute, and promptly declare that its owner must be the murderer. What gave it away?",
   answers: {
     [ASHLEYTYPES.TECH]: "Sublime Text installed instead of VS Code",
-    [ASHLEYTYPES.TF]: "A downloaded Q-Guide report with the following comment: \"10/10 best TF ever, but why did sections always go 15 minutes overtime and yet cover less than half the section notes???\" ",
+    [ASHLEYTYPES.TF]: "An installed Zoom plugin that disables all reaction emojis except 😒",
     [ASHLEYTYPES.HS]: "An extremely unorganized Downloads folder containing 90% of the files on disk, dating back to December 2016",
     [ASHLEYTYPES.DANCE]: "Daily GCal events that run until 4 am for holding auditions for 4 different dance shows and 1 musical",
     [ASHLEYTYPES.DATAMATCH]: "Git commit messages that were both all-lowercase AND in past tense",
