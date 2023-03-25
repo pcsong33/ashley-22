@@ -149,7 +149,7 @@ const DESCRIPTIONS = {
     [ASHLEYTYPES.HS]:
     {
         photo: "assets/grad_ashley.jpeg",
-        description: "We can only guess what high school Ashley was like, but this is how we imagine her: optimistic, passionate, and ready for the world. \"Hi, I'm Ashley and I live in Livermore, California. I developed burning passion for STEM through my intensive and transformative summer experience at SSP. One of the reasons I love STEM is because it is our future, and I cannot wait for mine! Of course, it’s impossible to really predict my future, but I’m extremely excited to see where life will take me!\""
+        description: "We can only guess what high school Ashley was like, but this is how we imagine her: optimistic, passionate, and ready for the world. \"Hi, I'm Ashley and I live in Livermore, California. I developed a burning passion for STEM through my intensive and transformative summer experience at SSP. One of the reasons I love STEM is because it is our future, and I cannot wait for mine! Of course, it’s impossible to really predict my future, but I’m extremely excited to see where life will take me!\""
     },
     [ASHLEYTYPES.DANCE]:
     {
