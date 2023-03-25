@@ -1,6 +1,6 @@
 @font-face { font-family: Migra-Bold; src: url('fonts/MigraItalic-ExtraboldItalic.ttf'); }
 @font-face { font-family: Migra-Light; src: url('fonts/MigraItalic-ExtralightItalic.ttf'); }
-@font-face { font-family: Galano; src: url('fonts/GalanoClassicLight.otf'); }
+@font-face { font-family: Galano; src: url('fonts/GalanoClassicLight.otf'); font-weight: bold;}
 @font-face { font-family: Galano-Med; src: url('fonts/GalanoClassicMedium.otf');}
 
 
@@ -160,7 +160,10 @@ h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+}
+
+.small {
+  width: 25%;
 }
 
 p {
@@ -168,9 +171,16 @@ p {
     margin-left: auto;
     margin-right: auto;
     width: 70%;
+    font-size: 14pt;
 }
 
 img {
     border-radius: 25px;
     border: 5px solid pink;
+}
+
+h4 {
+  font-family: Galano-Med;
+  font-style: italic;
+  text-align: center;
 }

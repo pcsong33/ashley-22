@@ -11,14 +11,14 @@ const ASHLEYTYPES = {
 // this is the quiz
 const QUESTIONS = [
 {
-    question: "It's Ashley's birthday! Which gift would you most like to receive?",
+    question: "It's Ashley's birthday! Which gift would you like to give her?",
     answers: {
         [ASHLEYTYPES.TECH]: "A LinkedIn Premium subscription and a viral post starting with \“I'm overjoyed to announce that I'm returning to Stripe this summer!\”",
         [ASHLEYTYPES.TF]: "Getting out of grading psets for the rest of the semester",
         [ASHLEYTYPES.HS]: "22 shooting stars across the night sky",
         [ASHLEYTYPES.DANCE]: "A $30,000 anonymous donation to Eleganza",
         [ASHLEYTYPES.DATAMATCH]: "Hugs and kisses ❤️",
-        [ASHLEYTYPES.FOODIE]: "A Breakfast BLT on a whole wheat bagel from Black Sheep"
+        [ASHLEYTYPES.FOODIE]: "A Breakfast BLT on a whole wheat bagel with avocado from Black Sheep"
     }
 },
 {
@@ -44,7 +44,7 @@ const QUESTIONS = [
   }
 },
 {
-  question: "Ashley has an interview, what's your opening line?",
+  question: "You have an interview, what's your opening line?",
   answers: {
       [ASHLEYTYPES.TECH]: "At Stripe, I pioneered a feature that allows Stripe App developers to expire sensitive data being stored by the Stripe API, using Java, Ruby, and MongoDB.\
        During my Faceboook internship, I implemented new features for Messenger Desktop’s in-call settings that allow users to self-correct audio issues. Sorry, what was your question again?",
@@ -111,17 +111,6 @@ const QUESTIONS = [
   }
 },
 {
-  question: "You're in an important TF meeting for CS 124. Which emoji do you use to acknowledge what Adam just said?",
-  answers: {
-    [ASHLEYTYPES.TECH]: "😒",
-    [ASHLEYTYPES.TF]: "😒",
-    [ASHLEYTYPES.HS]: "😒",
-    [ASHLEYTYPES.DANCE]: "😒",
-    [ASHLEYTYPES.DATAMATCH]: "😒",
-    [ASHLEYTYPES.FOODIE]: "😒"
-  }
-},
-{
   question: "Pick a plushie",
   answers: {
     [ASHLEYTYPES.TECH]: "Octocat",
@@ -149,8 +138,8 @@ const QUESTIONS = [
 const DESCRIPTIONS = {
     [ASHLEYTYPES.TECH]:
     {
-        photo: "assets/tech_bro_ashley.png",
-        description: "LinkedIn Message from tech Ashley. “Please add me to your LinkedIn network.” I have extensive experience in both research, industry, and as a co-founder, having worked as a data science researcher for the CDC and a software engineer intern at Stripe and Facebook. Some of my (endorsed) technical skills include web development, observational astronomy, collaborative problem solving, and OCaml."
+        photo: "assets/tech_bro_ashley_2.png",
+        description: "LinkedIn Message Ashley Zhuang. “Please add me to your LinkedIn network.” I have extensive experience in both research, industry, and as a co-founder, having worked as a data science researcher for the CDC and a software engineer intern at Stripe and Facebook. Some of my (endorsed) technical skills include web development, observational astronomy, collaborative problem solving, and OCaml."
     },
     [ASHLEYTYPES.TF]:
     {
@@ -175,7 +164,7 @@ const DESCRIPTIONS = {
     [ASHLEYTYPES.FOODIE]:
     {
         photo: "assets/foodie_ashley.jpeg",
-        description: "You matched with foodie Ashley! Do you love dipping Hot Cheetos in sour cream? Have you spent two weeks of your life making and eating exclusively avocado toast? After eating a heaty meal, do you often lean back in your seat, close your eyes, and say \"that was sooo gooddddd\"? Then we have no doubts that you'll get along with foodie Ashley"
+        description: "You matched with foodie Ashley! Do you love dipping Hot Cheetos in sour cream? Have you spent two weeks of your life making and eating exclusively avocado toast? After eating a hearty meal, do you often lean back in your seat, close your eyes, and say \"that was sooo gooddddd\"? Then we have no doubts that you'll get along with Ashley, lover of foods. Just make sure you take her out to hot pot."
     }
 };
 
@@ -270,18 +259,21 @@ function showResults(){
             </div>`
     }
     else {
+        var subject = `I matched with ${maxAshleyType}!`;
+        var body = "Hi Ashley,%0D%0DHAPPY BIRTHDAY :DDD%0DI matched with you on AshleyMatch (https://pcsong33.github.io/ashley-22)!%0DAre you free for a date at 9pm in Lowell Underground on Sunday, March 26th?%0D"
+        var link = `https://mail.google.com/mail/?view=cm&fs=1&to=azhuang@college.harvard.edu&su=${subject}&body=${body}`;
         resultsContainer.innerHTML =
             `<div class="answer">
-                <h1>Congrats, you are ${maxAshleyType}!</h1>
+                <h1>Congrats, you matched with ${maxAshleyType}!</h1>
                 <img src=${DESCRIPTIONS[maxAshleyType].photo} class="ashley">
                 <p>${DESCRIPTIONS[maxAshleyType].description}</p>
+                <button onclick=" window.open('${link}','_blank')" class="submit center" id="submit">Message Ashley</button>
+                <h4 class="center">Write Ashley a Happy Birthday Message!</h4>
             </div>`
+            
     }
 
     resultsContainer.scrollIntoView();
-
-    // var audio = new Audio("assets/heart_react.m4a");
-    // audio.play();
 }
 
 // display quiz right away
