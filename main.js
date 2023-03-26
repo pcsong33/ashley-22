@@ -125,7 +125,7 @@ const QUESTIONS = [
   question: "You wake up in a cold sweat from a terrible nightmare. What was it about?",
   answers: {
     [ASHLEYTYPES.TECH]: "You're in a dark room, and you can't find your laptop charger. You're running out of battery, and you're about to miss your interview with Facebook.", // lol GitHub copilot came up with this one
-    [ASHLEYTYPES.TF]: "You were supposed to grade problem 4(c) on the pset but you haven't started and it's due tonight! But that's a later problem, right now you need to answer questions on Ed (WHY DOES NO ONE ELSE ANSWER QUESTIONS ON ED??). Oh and office hours begin in 30 minutes and you just received yet another Slack message about a certain someone overwriting names on the TF task allocation sheet.",
+    [ASHLEYTYPES.TF]: "You were supposed to grade problem 4(c) on the pset but you haven't started and it's due tonight! But that's a later problem, right now you need to answer questions on Ed (WHY DOES NO ONE ELSE ANSWER QUESTIONS ON ED??). Oh and office hours begin in 30 minutes and you just received yet another Slack message about names being overwritten on the TF task allocation sheet.",
     [ASHLEYTYPES.HS]: "You've been waiting anxiously for your final grade for a class. You refresh the page one last time, only to see *GASP* an A-.",
     [ASHLEYTYPES.DANCE]: "You're choregraphing a scene for Eleganza and you've been practicing with your group for months. It's finally your big day and you arrive at the venue only to discover that no one showed up to watch.",
     [ASHLEYTYPES.DATAMATCH]: "You pushed to production without testing your code and went to bed. You wake up the next morning and the world is on fire.",
