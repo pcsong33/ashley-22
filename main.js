@@ -261,7 +261,7 @@ function showResults(){
     else {
         var subject = `I matched with ${maxAshleyType}!`;
         var body = "Hi Ashley,%0D%0DHAPPY BIRTHDAY :DDD%0DI matched with you on AshleyMatch (https://ashleymatch.com), the number one Ashley Zhuang matchmaking site!%0DAre you free for a date at 9pm in Lowell Underground on Sunday, March 26th?%0D"
-        var link = `https://mail.google.com/mail/?view=cm&fs=1&to=psong@college.harvard.edu&su=${subject}&body=${body}`;
+        var link = `https://mail.google.com/mail/?view=cm&fs=1&to=azhuang@college.harvard.edu&su=${subject}&body=${body}`;
         resultsContainer.innerHTML =
             `<div class="answer">
                 <h1>Congrats, you matched with ${maxAshleyType}!</h1>
